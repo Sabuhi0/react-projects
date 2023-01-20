@@ -1,0 +1,40 @@
+.notes-content h3,p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.notes-content {
+  padding: 15px 20px;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  margin-bottom: 1rem;
+}
+
+.notes-content p {
+  padding: 10px 0px 10px 0px;
+}
+
+.text-light {
+  opacity: 1;
+  color: #6c757d;
+}
+
+.notes-btn {
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+}
+
+.notes-btn:hover {
+  background-color: #b18d90;
+  cursor: pointer;
+}
