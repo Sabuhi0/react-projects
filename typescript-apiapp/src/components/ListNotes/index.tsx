@@ -1,6 +1,6 @@
 import React from 'react'
 import { Note } from '../../note.model';
-import Notes from '../Notes';
+import Notes from '../Note';
 
 interface IListNoteProps {
   notes: Note[];
