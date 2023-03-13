@@ -1,13 +1,13 @@
 import React from 'react'
 import { Note } from '../../note.model'
-import "../components/Note.css"
+import "./index.css"
 
-interface INotesProps{
+interface INotesProps {
   note: Note,
   handleDelete: (id: String) => void
 }
 
-const Notes:React. FC<INotesProps> = ({ note, handleDelete }) => {
+const Notes: React.FC<INotesProps> = ({ note, handleDelete }) => {
   return (
     <div className='notes-content'>
       <h3>{note.title}</h3>
